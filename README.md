@@ -20,11 +20,11 @@ All python code are base on python3 and use notebook.
 
 ## Contents
 
-1. Regeression
-	- Linear Regression
-	[Python+NumPy](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.%20Regression/Linear%20Regression/Python%2BNumpy%20-%20Linear%20Regression.ipynb)
-	[TensorFlow](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.%20Regression/Linear%20Regression/TensorFlow%20-%20Linear%20Regression%20Tutorial.ipynb) 
-	[Torch7](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.%20Regression/Linear%20Regression/Torch%20-%20Linear%20Regression%20Tutorial.ipynb)
-	[Exercise-Boston Housing(TensorFlow)](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.%20Regression/Linear%20Regression/Boston%20Housing%20Problem-TensorFlow.ipynb)
-	- Logistic Regression	
+1. Linear Regression
+	- Tutorial		
+	[Python](https://github.com/DongjunLee/DeepLearning-Example/blob/master/http://localhost:8888/notebooks/1.Linear_Regression(Python).ipynb)
+	[TensorFlow](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Tutorial-Linear_Regression(TensorFlow).ipynb) 
+	[Torch7](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Tutorial-Linear%20Regression(Torch).ipynb)
+	- Exercise
+	[Boston Housing(TensorFlow)](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Exercise-Boston_Housing_Problem(TensorFlow).ipynb)
 

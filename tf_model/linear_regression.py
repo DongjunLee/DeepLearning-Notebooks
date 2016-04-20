@@ -32,7 +32,7 @@ class LinearRegression:
 
 			print("Optimization Finished!")
 			# Save the variables to disk.
-			save_path = saver.save(sess, "tmp/model.ckpt")
+			save_path = saver.save(sess, "./../tmp/model.ckpt")
 
 	def _construct_model(self, num_feature):
 		self.X = tf.placeholder("float", shape=(None, num_feature), name="X")
@@ -54,7 +54,7 @@ class LinearRegression:
 		num_feature = X.shape[0]
 		
 		with tf.Session() as sess:
-			saver.restore(sess, "tmp/model.ckpt")
+			saver.restore(sess, "./../tmp/model.ckpt")
 			return sess.run(self.pred_y, feed_dict={self.X: X.reshape(1, num_feature)})[0][0] # return flat value
 	
 
