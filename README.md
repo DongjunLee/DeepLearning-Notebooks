@@ -18,6 +18,8 @@ All python code are base on python3 and use notebook.
 
 1. [Boston Housing DataSet](https://archive.ics.uci.edu/ml/datasets/Housing)
 2. [Mnist](http://yann.lecun.com/exdb/mnist/)
+3. [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+4. [iris](http://archive.ics.uci.edu/ml/datasets/Iris)
 
 ## Contents
 
