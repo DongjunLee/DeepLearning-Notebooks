@@ -17,14 +17,18 @@ All python code are base on python3 and use notebook.
 ## DataSet
 
 1. [Boston Housing DataSet](https://archive.ics.uci.edu/ml/datasets/Housing)
+2. [Mnist](http://yann.lecun.com/exdb/mnist/)
 
 ## Contents
 
 1. Linear Regression
-	- Tutorial
+	- Tutorial : 
 	[ Python ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/Python.ipynb)
 	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/TensorFlow.ipynb) 
 	[ Torch7 ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/Torch.ipynb)
-	- Exercise
+	- Exercise : 
 	[ Boston Housing(TensorFlow) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/Exercise-Boston_Housing_Problem(TensorFlow).ipynb)
-
+2. Logistic Regression
+	- Toturial : 
+	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/TensorFlow.ipynb) 
+	- Exercise : 

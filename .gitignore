@@ -1,5 +1,6 @@
 .DS_Store
-data/
-tmp/
 .ipynb_checkpoints/
 __pycache__/
+tmp/
+data/
+MNIST_data/
