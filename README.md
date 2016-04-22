@@ -33,5 +33,6 @@ All python code are base on python3 and use notebook.
 2. Logistic Regression
 	- Toturial : 
 	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/TensorFlow.ipynb) 
+	[ Torch ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/Torch.ipynb) 
 	- Exercise : 
 	[ Iris(Python) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/Iris(Python).ipynb) 
