@@ -4,3 +4,4 @@ __pycache__/
 tmp/
 data/
 MNIST_data/
+*.t7

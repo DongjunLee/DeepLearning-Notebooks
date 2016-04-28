@@ -38,22 +38,22 @@ class LogisticRegression(object):
 	def loss(self, X, y, reg):
 		
 		# Initialize
-		softmax_loss = 0.0
+		loss = 0.0
 		dW = np.zeros_like(self.W)
 		num_train = X.shape[0]
 
 		scores = X.dot(self.W)
 		scores -= np.max(scores, axis=1).reshape(num_train, 1)
 		P = np.exp(scores)/np.reshape(np.sum(np.exp(scores), axis=1), (num_train, 1))
-		softmax_loss = -np.sum(np.log(P[(range(num_train), y)]))
+		loss = -np.sum(np.log(P[(range(num_train), y)]))
 		
-		softmax_loss /= num_train
-		softmax_loss += 0.5 * reg * np.sum(self.W*self.W)
+		loss /= num_train
+		loss += 0.5 * reg * np.sum(self.W*self.W)
 
 		P[(range(num_train), y)] = P[(range(num_train), y)] - 1
 		dW = (1.0/num_train) * np.dot(X.T, P) + reg * self.W
 
-		return softmax_loss, dW
+		return loss, dW
 
 	def get_loss_history(self):
 		return self.loss_history
