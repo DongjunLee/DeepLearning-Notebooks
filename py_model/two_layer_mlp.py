@@ -55,10 +55,10 @@ class NeuralNetwork(object):
 		self.l2['W'] -= learning_rate * ( (l1_act.T).dot(output) + reg * (self.l2['W']) )
 		self.l2['b'] -= learning_rate * np.sum(output, axis=0)
 					
-		dJdL1_act = output.dot(self.l2['W'].T)
+		dL1_act = output.dot(self.l2['W'].T)
 			
-		self.l1['W'] -= learning_rate * ( (X.T).dot(dJdL1_act) + reg * (self.l1['W']) ) 
-		self.l1['b'] -= learning_rate * np.sum(dJdL1_act, axis=0)
+		self.l1['W'] -= learning_rate * ( (X.T).dot(dL1_act) + reg * (self.l1['W']) ) 
+		self.l1['b'] -= learning_rate * np.sum(dL1_act, axis=0)
 
 	def train(self, X, y, learning_rate=1e-3, reg=1e-5, num_iters=1000, batch_size=50, verbose=False):
 

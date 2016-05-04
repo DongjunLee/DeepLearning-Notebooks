@@ -38,9 +38,13 @@ All python code are base on python3 and use notebook.
 	|
 	[ Iris(Python) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/Iris(Python).ipynb) 
 3. Neural Network(2 Layer)
+	- Two Layer Network:
 	[ Torch ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/Torch.ipynb)
 	|
 	[ Mnist(Python) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/Mnist(Python).ipynb)) 
+	[ AND, OR, XOR(Python)-2_Layer ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/AND, OR, XOR(Python)-2_Layer.ipynb)) 
+	- N Layer Network:
+	[ AND, OR, XOR(Python)-N_Layer ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/AND, OR, XOR(Python)-N_Layer.ipynb)) 
 4. Convolutional Neural Network
 	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/4.Convolution_Network/TensorFlow.ipynb) 
 
