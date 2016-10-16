@@ -23,29 +23,35 @@ All python code are base on python3 and use notebook.
 
 ## Contents
 
-1. Linear Regression
-	[ Python ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/Python.ipynb)
+1. Linear Regression  
+	[ Python ](1.Linear_Regression/Python.ipynb)
 	|
-	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/TensorFlow.ipynb) 
+	[ TensorFlow ](1.Linear_Regression/TensorFlow.ipynb) 
 	|
-	[ Torch7 ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/Torch.ipynb)
+	[ Torch7 ](1.Linear_Regression/Torch.ipynb)
 	|
-	[ Boston Housing(TensorFlow) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/1.Linear_Regression/Exercise-Boston_Housing_Problem(TensorFlow).ipynb)
-2. Logistic Regression
-	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/TensorFlow.ipynb) 
+	[ Boston Housing(TensorFlow) ](1.Linear_Regression/Exercise-Boston_Housing_Problem(TensorFlow).ipynb)
+2. Logistic Regression  
+	[ TensorFlow ](2.Logistic_Regression/TensorFlow.ipynb) 
 	|
-	[ Torch ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/Torch.ipynb) 
+	[ Torch ](2.Logistic_Regression/Torch.ipynb) 
 	|
-	[ Iris(Python) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/2.Logistic_Regression/Iris(Python).ipynb) 
-3. Neural Network(2 Layer)
+	[ Iris(Python) ](2.Logistic_Regression/Iris(Python).ipynb) 
+3. Neural Network
 	- Two Layer Network:
-	[ Torch ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/Torch.ipynb)
+	[ Torch ](3.Neural_Network/Torch.ipynb)
 	|
-	[ Mnist(Python) ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/Mnist(Python).ipynb) 
+	[ Mnist(Python) ](3.Neural_Network/Mnist(Python).ipynb) 
 	|
-	[ AND, OR, XOR(Python)-2_Layer ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/AND, OR, XOR(Python)-2_Layer.ipynb) 
+	[ AND, OR, XOR(Python)-2_Layer ](3.Neural_Network/AND,OR,XOR(Python)-2_Layer.ipynb) 
 	- N Layer Network:
-	[ AND, OR, XOR(Python)-N_Layer ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/3.Neural_Network/AND, OR, XOR(Python)-N_Layer.ipynb) 
-4. Convolutional Neural Network
-	[ TensorFlow ](https://github.com/DongjunLee/DeepLearning-Example/blob/master/4.Convolution_Network/TensorFlow.ipynb) 
+	[ AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb) 
+4. Convolutional Neural Network  
+	[ TensorFlow ](4.Convolution_Network/TensorFlow.ipynb) 
+5. Word2Vec   
+	[ TensorFlow ](5.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
+	
+## Reference
 
+- [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)
+- [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
