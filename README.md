@@ -23,8 +23,8 @@ All python code are base on python3 and use jupyter notebook.
 
 ## Contents
 
-Python, TensorFlow is minimal version.
-Exercise is extended version from minimal.
+*****Python**, **TensorFlow** is minimal version.
+**Exercise** is used model that mimicking scikit-learn's interface (fit, predict, etc...) and extended version from minimal.
 
 1. Linear Regression  
     [ Python ](1.Linear_Regression/Python.ipynb)
@@ -36,18 +36,18 @@ Exercise is extended version from minimal.
     [ TensorFlow ](2.Logistic_Regression/TensorFlow.ipynb) 
     |
     [ Exercies - Iris(Python) ](2.Logistic_Regression/Iris(Python).ipynb) 
-3. Neural Network
+3. Neural Network  
     - Two Layer Network:
     [ Mnist(Python) ](3.Neural_Network/Mnist(Python).ipynb) 
     |
     [ AND, OR, XOR(Python)-2_Layer ](3.Neural_Network/AND,OR,XOR(Python)-2_Layer.ipynb) 
     - N Layer Network:
     [ Exercise - AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb) 
-4. Convolutional Neural Network
+4. Convolutional Neural Network  
     [ TensorFlow(AlexNet) ](4.Convolution_Network/TensorFlow.ipynb) 
-5. Word2Vec
+5. Word2Vec  
     [ TensorFlow ](5.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
-6. CNN for sentence classification
+6. CNN for sentence classification  
     [ TensorFlow ](6.TextCNN/TensorFlow-TextCNN.ipynb)
     
 ## Reference
