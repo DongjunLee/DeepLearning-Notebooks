@@ -23,32 +23,32 @@ All python code are base on python3 and use jupyter notebook.
 
 ## Contents
 
-*****Python**, **TensorFlow** is minimal version.
+**Python**, **TensorFlow** is minimal version.  
 **Exercise** is used model that mimicking scikit-learn's interface (fit, predict, etc...) and extended version from minimal.
 
 1. Linear Regression  
-    [ Python ](1.Linear_Regression/Python.ipynb)
+    [ **Python** ](1.Linear_Regression/Python.ipynb)
     |
-    [ TensorFlow ](1.Linear_Regression/TensorFlow.ipynb) 
+    [ **TensorFlow** ](1.Linear_Regression/TensorFlow.ipynb) 
     |
-    [ Exercise - Boston Housing(TensorFlow) ](1.Linear_Regression/Exercise-Boston_Housing_Problem(TensorFlow).ipynb)
+    [ **Exercise** - Boston Housing(TensorFlow) ](1.Linear_Regression/Exercise-Boston_Housing_Problem(TensorFlow).ipynb)
 2. Logistic Regression  
-    [ TensorFlow ](2.Logistic_Regression/TensorFlow.ipynb) 
+    [ **TensorFlow** ](2.Logistic_Regression/TensorFlow.ipynb) 
     |
-    [ Exercies - Iris(Python) ](2.Logistic_Regression/Iris(Python).ipynb) 
+    [ **Exercies** - Iris(Python) ](2.Logistic_Regression/Iris(Python).ipynb) 
 3. Neural Network  
     - Two Layer Network:
-    [ Mnist(Python) ](3.Neural_Network/Mnist(Python).ipynb) 
+    [ **Python**) ](3.Neural_Network/Mnist(Python).ipynb) 
     |
     [ AND, OR, XOR(Python)-2_Layer ](3.Neural_Network/AND,OR,XOR(Python)-2_Layer.ipynb) 
     - N Layer Network:
-    [ Exercise - AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb) 
+    [ **Exercise** - AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb) 
 4. Convolutional Neural Network  
-    [ TensorFlow(AlexNet) ](4.Convolution_Network/TensorFlow.ipynb) 
+    [ **TensorFlow**(AlexNet) ](4.Convolution_Network/TensorFlow.ipynb) 
 5. Word2Vec  
-    [ TensorFlow ](5.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
+    [ **TensorFlow** ](5.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
 6. CNN for sentence classification  
-    [ TensorFlow ](6.TextCNN/TensorFlow-TextCNN.ipynb)
+    [ **TensorFlow** ](6.TextCNN/TensorFlow-TextCNN.ipynb)
     
 ## Reference
 
