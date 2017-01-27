@@ -45,10 +45,12 @@ All python code are base on python3 and use jupyter notebook.
     [ **Exercise** - AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb) 
 4. Convolutional Neural Network  
     [ **TensorFlow**(AlexNet) ](4.Convolution_Network/TensorFlow.ipynb) 
-5. Word2Vec  
-    [ **TensorFlow** ](5.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
-6. CNN for sentence classification  
-    [ **TensorFlow** ](6.TextCNN/TensorFlow-TextCNN.ipynb)
+5. Recurrent Neural Network  
+    [ **TensorFlow** ] (5.Recurrent_Neuarl_Network/Tensorflow-RNN.ipynb)
+6. Word2Vec  
+    [ **TensorFlow** ](6.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
+7. CNN for sentence classification  
+    [ **TensorFlow** ](7.TextCNN/TensorFlow-TextCNN.ipynb)
     
 ## Reference
 
@@ -56,3 +58,4 @@ All python code are base on python3 and use jupyter notebook.
 - [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
 - [TensorFlow Tutorial](https://www.tensorflow.org/tutorials/)
 - [WILDML](http://www.wildml.com/)
+- [R2RT](http://r2rt.com/)
