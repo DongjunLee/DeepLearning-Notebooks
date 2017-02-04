@@ -49,9 +49,12 @@ All python code are base on python3 and use jupyter notebook.
     [ **TensorFlow** ] (5.Recurrent_Neuarl_Network/Tensorflow-RNN.ipynb)
 6. Word2Vec  
     [ **TensorFlow** ](6.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
-7. CNN for sentence classification  
+7. CNN for Sentence Classification  
+    [ **PDF** ](http://aclweb.org/anthology/D/D14/D14-1181.pdf) 
+    |
     [ **TensorFlow** ](7.TextCNN/TensorFlow-TextCNN.ipynb)
-    
+8. Char-RNN (a character-level language model to generate character sequences)
+    [ **TensorFlow**(Obama-RNN) ](8.CharRNN/TensorFlow-Char-RNN.ipynb)
 ## Reference
 
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)
