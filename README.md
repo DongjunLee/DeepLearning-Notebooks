@@ -53,7 +53,7 @@ All python code are base on python3 and use jupyter notebook.
     [ **PDF** ](http://aclweb.org/anthology/D/D14/D14-1181.pdf) 
     |
     [ **TensorFlow** ](7.TextCNN/TensorFlow-TextCNN.ipynb)
-8. Char-RNN (a character-level language model to generate character sequences)
+8. Char-RNN (a character-level language model to generate character sequences)  
     [ **TensorFlow**(Obama-RNN) ](8.CharRNN/TensorFlow-Char-RNN.ipynb)
 ## Reference
 
