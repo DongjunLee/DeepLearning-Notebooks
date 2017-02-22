@@ -7,9 +7,9 @@ These are deep learning examples implemented by TensorFlow, Python with Numpy.
 
 All python code are base on python3 and use jupyter notebook. 
 
-- TensorFlow
+- TensorFlow 1.0
 - Scikit Learn
-- matplotlib
+- matplotlib, Seaborn
 - Numpy
 - Pandas
 
