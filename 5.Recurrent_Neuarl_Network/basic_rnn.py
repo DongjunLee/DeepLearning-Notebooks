@@ -33,11 +33,11 @@ def setup_graph(graph, config):
         # 2. tf.squeeze gets rid of the middle dimension from each
         # 3. Thus, rnn_inputs is a list of config.num_steps tensors with shape [batch_size, 2]
         x_one_hot = tf.one_hot(x, config.num_classes)
-        rnn_inputs = [tf.squeeze(i,squeeze_dims=[1]) for i in tf.split(1, config.num_steps, x_one_hot)]
+        rnn_inputs = [tf.squeeze(i, axis=[1]) for i in tf.split(x_one_hot, config.num_steps, axis=1)]
 
         # Turn our y placeholder into a list of one-hot tensors
         y_one_hot = tf.one_hot(y, config.num_classes)
-        y_as_list = [tf.squeeze(i, squeeze_dims=[1]) for i in tf.split(1, config.num_steps, y_one_hot)]
+        y_as_list = [tf.squeeze(i, axis=[1]) for i in tf.split(y_one_hot, config.num_steps, axis=1)]
 
         """
         Definition of rnn_cell
@@ -52,7 +52,7 @@ def setup_graph(graph, config):
             with tf.variable_scope('rnn_cell', reuse=True):
                 W = tf.get_variable('W', [config.num_classes + config.state_size, config.state_size])
                 b = tf.get_variable('b', [config.state_size], initializer=tf.constant_initializer(0.0))
-            return tf.tanh(tf.matmul(tf.concat(1, [rnn_input, state]), W) + b)
+            return tf.tanh(tf.matmul(tf.concat([rnn_input, state], 1), W) + b)
 
         """
         Adding rnn_cells to graph
@@ -81,7 +81,7 @@ def setup_graph(graph, config):
         predictions = [tf.nn.softmax(logit) for logit in logits]
 
         #losses and train_step
-        losses = [tf.nn.softmax_cross_entropy_with_logits(logit,label) for logit, label in zip(logits, y_as_list)]
+        losses = [tf.nn.softmax_cross_entropy_with_logits(logits=logit, labels=label) for logit, label in zip(logits, y_as_list)]
         total_loss = tf.reduce_mean(losses)
         train_step = tf.train.AdagradOptimizer(config.learning_rate).minimize(total_loss)
 
