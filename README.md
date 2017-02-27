@@ -1,4 +1,4 @@
-# DeepLearning Example
+# DeepLearning Notebooks
 
 These are deep learning examples implemented by TensorFlow, Python with Numpy. 
 
