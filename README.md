@@ -42,7 +42,9 @@ All python code are base on python3 and use jupyter notebook.
     |
     [ AND, OR, XOR(Python)-2_Layer ](3.Neural_Network/AND,OR,XOR(Python)-2_Layer.ipynb) 
     - N Layer Network:
-    [ **Exercise** - AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb) 
+    [ **Exercise** - AND, OR, XOR(Python)-N_Layer ](3.Neural_Network/AND,OR,XOR(Python)-N_Layer.ipynb)   
+    |
+    [ **TensorFlow** ](3.Neural_Network/TensorFlow.ipynb)   
 4. Convolutional Neural Network  
     [ **TensorFlow**(AlexNet) ](4.Convolution_Network/TensorFlow.ipynb) 
 5. Recurrent Neural Network  
