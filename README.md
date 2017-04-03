@@ -57,6 +57,9 @@ All python code are base on python3 and use jupyter notebook.
     [ **TensorFlow**(Obama-RNN) ](8.CharRNN/TensorFlow-Char-RNN.ipynb)
 9. Seq2Seq  
 	 [ **TensorFlow** ](9.Seq2Seq/TensorFlow.ipynb)
+10. Adversarial Neural Cryptography  
+	 [ **TensorFlow** ](10.Adversarial_Neural_Cryptography/TensorFlow.ipynb)
+
 ## Reference
 
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)
