@@ -47,7 +47,7 @@ All python code are base on python3 and use jupyter notebook.
 4. Convolutional Neural Network  
     [ **TensorFlow**(AlexNet) ](4.Convolution_Network/TensorFlow.ipynb) 
 5. Recurrent Neural Network  
-    [ **TensorFlow** ] (5.Recurrent_Neuarl_Network/Tensorflow-RNN.ipynb)
+    [ **TensorFlow** ](5.Recurrent_Neuarl_Network/Tensorflow-RNN.ipynb)
 6. Word2Vec  
     [ **TensorFlow** ](6.Word2Vec/TensorFlow-Word2Vec_Basic.ipynb)
 7. CNN for Sentence Classification  
